@@ -1,17 +1,5 @@
-// 변수는 웬만하면 const로 쓰고 필요시에만 let을 쓰자!
+const something = "Something";
 
-/* String 
-const what = "ARAV";
-*/
-/*
-Boolean
-const wat = true;
-*/
-/*
-Number
-const wat = 666;
-*/
-/* 
-Float
-const wat = 55.1;
-*/
+const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", true, 53, something];
+
+console.log(daysOfWeek);
