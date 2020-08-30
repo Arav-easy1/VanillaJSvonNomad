@@ -1,5 +1,19 @@
-const something = "Something";
+const aravInfo = {
+    name: "Arav",
+    age: 31,
+    gender: "Female",
+    inHandsome: true,
+    favMovies: ["Along th gods", "LOTR", "Oldboy"],
+    favFood: [
+        {
+            name: "Kimchi",
+            fatty: false
+        }, 
+        {
+            name: "Cheese burger",
+            fatty: true
+        }
+    ]
+};
 
-const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", true, 53, something];
-
-console.log(daysOfWeek);
+console.log(aravInfo);
