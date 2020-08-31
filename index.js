@@ -1,5 +1,9 @@
-function sayHello(name, age){
-    console.log('Hello!', name, "you have ", age, "years of age.");
+const calculator = {
+    plus: function (a, b) {
+        return a + b;
+    }
 }
 
-sayHello("Arav", 15);
+// console.log(greetArav);
+const plus = calculator.plus(5, 5);
+console.log(plus);
