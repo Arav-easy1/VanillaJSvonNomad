@@ -1,19 +1,5 @@
-const aravInfo = {
-    name: "Arav",
-    age: 31,
-    gender: "Female",
-    inHandsome: true,
-    favMovies: ["Along th gods", "LOTR", "Oldboy"],
-    favFood: [
-        {
-            name: "Kimchi",
-            fatty: false
-        }, 
-        {
-            name: "Cheese burger",
-            fatty: true
-        }
-    ]
-};
+function sayHello(name, age){
+    console.log('Hello!', name, "you have ", age, "years of age.");
+}
 
-console.log(aravInfo);
+sayHello("Arav", 15);
