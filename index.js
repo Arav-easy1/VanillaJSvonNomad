@@ -1,5 +1,8 @@
-// const title = document.querySelector("#title");   // 노드의 첫번째 자식을 반환함. #id로 찾기 .class로 찾기
 const title = document.querySelector("#title");
-title.innerHTML = "Hi! From JS";
-title.style.color = 'red';
-document.title = "I own you now";
+
+function handleClick(){
+    title.style.color = "blue";
+}
+
+// handleResize() 이렇게 하면 지금 바로 호출하게됨, 따라서 특정 이벤트에서 쓸때는 handleResize라고 쳐야함.
+title.addEventListener("click", handleClick);  
